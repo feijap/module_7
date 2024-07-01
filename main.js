@@ -36,9 +36,9 @@ console.log(personNameOver18)
 function setFullName(obj, name) {
   obj.fullName = name;
 };
-const setPersonFullName = setFullName.bind(null, person);
+const setPersonFullName = setFullName.bind(null, persons);
 setPersonFullName("John Smith");
-console.log(person.fullName);
+console.log(persons.fullName);
 
 // 7.7.5
 
